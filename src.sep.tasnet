@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 /usr/common/anaconda3-2019.10/bin/python src/separate.py --model_path trained/tasnet.pth.tar --mix_json data/eval.real.nat.json --out_dir result/sep.tasnet.real.nat --use_cuda 1 --sample_rate 16000 --batch_size 1
